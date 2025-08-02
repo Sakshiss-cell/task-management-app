@@ -27,21 +27,8 @@
 
 ### State Management Architecture
 
-store/
-├── tasks/
-│   ├── tasks[]           # Task data array
-│   ├── customFields[]    # Field definitions
-│   ├── activeFilters[]   # Current filter state
-│   ├── sortBy            # Sort field
-│   ├── sortOrder         # Sort direction
-│   └── pagination        # Page state
-├── ui/
-│   ├── loading           # Loading states
-│   ├── modals            # Modal visibility
-│   └── notifications     # Toast messages
-└── user/
-    ├── preferences       # User settings
-    └── session          # Auth state
+<img width="420" height="352" alt="Screenshot 2025-08-02 at 1 07 43 PM" src="https://github.com/user-attachments/assets/f83d9f12-61d2-4661-bf7a-31e724c8c6eb" />
+
 
 ### Custom Fields System
 
