@@ -27,15 +27,21 @@
 
 ### State Management Architecture
 
-\`\`\`
-Store Structure:
+store/
 ├── tasks/
 │   ├── tasks[]           # Task data array
 │   ├── customFields[]    # Field definitions
 │   ├── activeFilters[]   # Current filter state
-│   ├── sortBy/sortOrder  # Sorting configuration
-│   └── pagination       # Page state
-\`\`\`
+│   ├── sortBy            # Sort field
+│   ├── sortOrder         # Sort direction
+│   └── pagination        # Page state
+├── ui/
+│   ├── loading           # Loading states
+│   ├── modals            # Modal visibility
+│   └── notifications     # Toast messages
+└── user/
+    ├── preferences       # User settings
+    └── session          # Auth state
 
 ### Custom Fields System
 
